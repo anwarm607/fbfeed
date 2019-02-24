@@ -1,0 +1,169 @@
+.posts {
+    margin: 35px auto;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    width: 502px;
+    .header {
+        position: relative;
+        margin: auto;
+        border-radius: 3px 3px 0 0;
+        margin: auto;
+        width: 472px;
+        padding: 15px 0 15px 15px;
+        .btn_set {
+            position: absolute;
+            right: 0;
+            font-size:12px;
+            button {
+                border: 1px solid black;
+                padding: 4px 17px;
+                border-radius: 12px;
+                background: none;
+                margin-right: 10px;
+                cursor: pointer;
+                outline: none;
+            }
+            &:hover {
+                color: rgba(0, 0, 0, .30);
+              }
+          }
+        .profession {
+            font-family: Helvetica;
+            font-size:12px;
+            color: #aaa;
+          }
+        .co-logo {
+            float:left;
+            margin-right:8px;
+            border-radius: 100%;
+            width:40px;
+            height:40px;
+          }
+          .co-name > a {
+            font-family: Helvetica;
+            font-size:14px;
+            font-weight: bold;
+            line-height: 1.38;
+            color: black;
+            text-decoration:none;
+            margin-bottom:2px;
+            &:hover {
+                text-decoration:underline;
+            }
+          }
+        
+    }
+    .f-card {
+        background-color:white;
+        width:502px;
+        border-radius:3px;
+        margin: auto;
+        margin-bottom:10px;
+        .user_input {
+            position: relative;
+            span {
+                position: absolute;
+                right: 7px;
+                bottom: 3px;
+                float: right;
+                color: #aaa;
+                font-size: 15px;
+            }
+            .text {
+                max-height: 705px;
+                min-height: 60px;
+                resize: none;
+                padding: 20px 15px 20px 15px;
+                box-sizing: border-box;
+                font-size: 15px!important;
+                width: -webkit-fill-available;
+                outline: none;
+                border: none;
+            }
+        }
+    }
+}
+// UnUsed
+
+
+.content {
+  clear:both;
+  font-family: Helvetica, sans-serif;
+  font-size:14px;
+  line-height: 1.38;
+}
+
+.reference {
+  width:476px;
+}
+.reference-thumb {
+  display:block;
+  width:476px;
+  height:249px;
+}
+
+.reference-content {
+  border: 2px solid black;
+  border: 2px solid rgba(0, 0, 0, .1);
+  border-top: 0;
+  padding: 10px 12px 10px 12px;
+}
+
+.reference:hover .reference-content {
+  border-color: black; /* Fallback */
+  border-color: rgba(0, 0, 0, .15);
+}
+
+.reference-title {
+  font-family: Georgia;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  
+  margin-bottom:5px;
+}
+
+.reference-subtitle {
+  font-family: Helvetica;
+  font-size:12px;
+  line-height: 16px; 
+}
+
+.reference-font {
+  color: #90949c;
+  font-family: Helvetica;
+  font-size: 11px;
+  line-height: 11px;
+  text-transform: uppercase;
+
+  padding-top:9px; 
+}
+
+.social {
+  margin-top:12px;
+}
+.social-buttons {
+  color: #7f7f7f;
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight:bold;
+  line-height:14px;
+  
+  border-top:1px solid #e5e5e5;
+  padding-top:4px;
+  
+}
+
+.social-buttons span {
+  font-size: 12px;
+  margin-right:20px;
+  padding:4px 4px 4px 0;
+}
+
+.social-buttons span:hover {
+  text-decoration:underline;
+  cursor:pointer;
+}
+
+.social-buttons span i {
+  padding-right:4px;
+}
